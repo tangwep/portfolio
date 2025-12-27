@@ -4,11 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio of Rabin Kattel – projects, skills, contact">
+    <meta name="description" content="Rabin Kattel Portfolio - Computer Engineering Student">
 <meta name="keywords" content="Rabin Kattel, portfolio, computer engineering">
-<title>Portfolio</title>
+<title>Portfolio</title><!DOCTYPE html>
+
+  
+  <title>Rabin Kattel Portfolio</title>
+  <style>
+    /* Basic Reset */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; scroll-behavior: smooth; }
+
+    /* Navigation */
+    nav {
+      position: fixed; top:0; width:100%; background:#fff; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      display:flex; justify-content:space-between; padding:1rem 2rem; z-index:100;
+    }
+    nav a { margin-left: 1rem; text-decoration:none; color:#333; transition:0.3s; }
+    nav a:hover { color:#007bff; }
+
+    /* Sections */
+    section { min-height:100vh; padding:100px 20px 50px 20px; }
+    #hero { background:#f4f4f4; display:flex; justify-content:center; align-items:center; flex-direction:column; }
+    #hero h1 { font-size:3rem; margin-bottom:1rem; }
+    #hero p { font-size:1.2rem; color:#555; }
+
+    /* Section titles */
+    h2 { font-size:2rem; margin-bottom:1rem; }
+
+    /* Footer */
+    footer { text-align:center; padding:1rem; background:#222; color:#fff; }
+
+    /* Responsive */
+    @media(max-width:600px){ nav { flex-direction:column; } nav a { margin:0.5rem 0; } }
+  </style>
 </head>
 <body>
-    <h2>Rabin kattel</h2>
+
+  <!-- Navigation -->
+  <nav>
+    <div><strong>Rabin Kattel</strong></div>
+    <div>
+      <a href="#AboutMe">About</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Rabin Kattel</h1>
+    <p>Computer Engineering Student | Web Developer | Portfolio</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="AboutMe">
+    <h2>About Me</h2>
+    <p>Hello! I am a computer engineering student building projects in web development and programming. I love solving problems and creating useful applications.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="Projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Project 1 - Simple Calculator</li>
+      <li>Project 2 - Portfolio Website</li>
+      <li>Project 3 - Todo App</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="Contact">
+    <h2>Contact</h2>
+    <p>Email: rabinkattel@example.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/rabinkattel</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Rabin Kattel
+  </footer>
+
 </body>
 </html>
-
