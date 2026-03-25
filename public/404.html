@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<script>
+  const s = location.pathname;
+  sessionStorage.redirect = s;
+  location.replace('/?p=' + s);
+</script>
