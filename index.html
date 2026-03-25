@@ -1,12 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      const r = sessionStorage.redirect;
+      if (r) { sessionStorage.removeItem('redirect'); window.history.replaceState(null, '', r); }
+    </script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/portfolio/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blade River</title>
-    <script type="module" crossorigin src="/portfolio/assets/index-D98QJzoj.js"></script>
-    <link rel="stylesheet" crossorigin href="/portfolio/assets/index-CLLby7ab.css">
+    <script type="module" crossorigin src="/assets/index-ohpSjnBs.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CLLby7ab.css">
   </head>
   <body>
     <div id="root"></div>
